@@ -1,0 +1,26 @@
+{
+  "name": "component-outdated2",
+  "description": "check if any pinned dependencies are outdated",
+  "version": "1.0.1",
+  "author": {
+    "name": "Jonathan Ong",
+    "email": "me@jongleberry.com",
+    "url": "http://jongleberry.com",
+    "twitter": "https://twitter.com/jongleberry"
+  },
+  "license": "MIT",
+  "repository": "component/outdated.js",
+  "dependencies": {
+    "generator-supported": "~0.0.1",
+    "component-consoler": "^1.0.0",
+    "component-flatten": "^1.0.0",
+    "remotes": "^1.0.0",
+    "semver": "^2.2.1"
+  },
+  "devDependencies": {
+    "regenerator": "0"
+  },
+  "scripts": {
+    "prepublish": "make clean build"
+  }
+}
