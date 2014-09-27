@@ -1,7 +1,7 @@
 {
   "name": "component-outdated2",
   "description": "check if any pinned dependencies are outdated",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": {
     "name": "Jonathan Ong",
     "email": "me@jongleberry.com",
